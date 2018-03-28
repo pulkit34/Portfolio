@@ -1,0 +1,168 @@
+.portfolio{
+display:flex;
+flex-direction:column;
+font-size:15px;
+}
+.container{
+background:black;
+display:flex;
+flex-direction:row;
+margin:1%;
+border:2px solid #cc0000;
+border-radius:10px;
+box-shadow:2px 2px 4px 6px red;
+}
+.container .Intro{
+padding:2%;
+
+}
+.container .Intro .heading{
+font-size:3em;
+color:white;
+}
+.container .Intro  .para{
+font-size:1.5em;
+color:white;
+text-align:left;
+}
+.container .pic {
+margin-left:35%;
+}
+.container .pic .image{
+padding:10%;
+width:16vw;
+}
+.about{
+margin:1%;
+}
+.about .head{
+font-size:2.0em;
+font-weight:bold;
+}
+.about .info{
+font-size:1.1em;
+}
+.head2
+{
+	margin:1%;
+font-size:2.0em;
+}
+.program{
+	margin:2%;
+	display:flex;
+	flex-wrap:wrap;
+}
+.item{
+	margin:1%;
+}
+.item .image2{
+	width:10vw;
+}
+.item .caption{
+	font-size:1em;
+	text-align:center;
+	font-family:;
+	font-weight:bold;
+}
+.Projects{
+	margin:1%;
+}
+.Projects .head1{
+	font-size:2.0em;
+}
+.Projects .Head2{
+	font-size:1.2em;
+}
+.Projects .para2{
+	font-size:1.1em;
+}
+.lists{
+	list-style-type:circle;
+}
+@media screen and (min-width:480px) and (max-width:768px){
+.about .head{
+font-size:1.8em;
+}
+.about .info{
+font-size:1em;
+}
+.Projects .head1{
+	font-size:1.8em;
+}
+.Projects .Head2{
+	font-size:1.1em;
+}
+.Projects .para2{
+	font-size:1em;
+}
+.head2
+{
+	margin:1%;
+font-size:1.8em;
+}
+.item .caption{
+	font-size:0.9em;
+}
+.item .image2{
+	width:12vw;
+}
+.container .pic {
+margin-left:16vw;
+}
+.container .pic .image{
+padding:13%;
+width:19vw;
+}
+.container .Intro .heading{
+font-size:2.8em;
+}
+.container .Intro  .para{
+font-size:1.4em;
+}
+
+}
+@media screen and (max-width:480px){
+
+
+.about .head{
+font-size:1.6em;
+}
+.about .info{
+font-size:0.9em;
+}
+.Projects .head1{
+	font-size:1.6em;
+}
+.Projects .Head2{
+	font-size:1.0em;
+}
+.Projects .para2{
+	font-size:0.9em;
+}
+.head2
+{
+	margin:1%;
+font-size:1.6em;
+}
+.item .caption{
+	font-size:0.8em;
+}
+.item .image2{
+width:12vw;
+}
+.container .pic {
+margin-left:2vw;
+}
+.container .pic .image{
+width:25vw;
+}
+.container .Intro .heading{
+font-size:2.6em;
+}
+.container .Intro  .para{
+font-size:1.3em;
+}
+
+}	
+	
+
